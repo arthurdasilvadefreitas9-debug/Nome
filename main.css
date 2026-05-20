@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+body {
+    background-color: rgb(210, 180, 236);
+    font-family: "Roboto", sans-serif;
+}
+.centro {
+    background-color: rgb(122, 108, 139);
+    width: 750px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#titulo {
+    color: rgb(48, 37, 61);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: "Limelight", sans-serif;
+    font-size: 45px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-shadow: 2px 2px 0px rgb(23, 8, 42);
+}
+
+#calculadora {
+    background-color: rgb(75, 59, 95);
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+}
+
+#display_area{
+    display:flex;
+    width:90%;
+    gap:10px;
+    justify-content: center;
+    margin: 10px auto 0 auto;
+}
+
+
+#display {
+    background-color: rgb(194, 179, 212);
+    width: 500px;
+    height: 75px;
+    margin: auto;
+    margin-top: 14px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px rgb(23, 8, 42); 
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#display_resultado{
+    background-color: rgb(194, 179, 212);
+    height: 75px;
+    width: 190px;
+    margin: auto;
+    margin-right: 10px;
+    margin-top: 14px;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 3px 3px 0px rgb(23, 8, 42);
+    font-size: 70px;   
+    font-family: "Limelight", sans-serif; 
+    display: flex;
+    align-items: center;
+    
+}
+
+#numeros{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-top: 40px;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
+
+}
+
+#tipos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 40px;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+
+}
+
+.num{
+    background: rgb(230, 226, 235);
+    height: 40px;
+    border-radius: 10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:25px;
+    cursor:pointer;
+    box-shadow: 3px 3px 0px rgb(23, 8, 42);
+}
