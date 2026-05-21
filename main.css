@@ -18,7 +18,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    font-family: "Limelight", arial;
+    font-family: "Limelight", sans-serif;
     font-size: 45px;
     margin-bottom: 5px;
     margin-top: 5px;
